@@ -14,17 +14,17 @@ int Main_menu_German()
 	char HI;//HI means Human Inteface and that is exactly what it does.//
 	while(1==1)
 	{
-		printf("Use WASD to control\nUse E for OK\n\nMenu:\n\"Start new game\"\n\"\Help\"\n\"Exit\"\n\n");//More are coming in later releases.//
+		printf("Benutze WASD zum steuern\nBenutze E als OK\n\nMenu:\n\"Neues Spiel\"\n\"\Hilfe\"\n\"Beenden\"\n\n");//More are coming in later releases.//
 		switch(Menu)//Used for the grahical feedback to the user.//
 		{
 			case 1:
-				printf("\"Start new game\"");//Easy//
+				printf("\"Neues Spiel\"");//Easy//
 				break;
 			case 2:
-				printf("\"Help\"");//Medium//
+				printf("\"Hilfe\"");//Medium//
 				break;
 			case 3:
-				printf("\"Exit\"");//Hard//
+				printf("\"Beenden\"");//Hard//
 				break;
 		}
 		HI=getch();
