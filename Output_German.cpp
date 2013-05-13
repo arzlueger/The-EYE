@@ -5,6 +5,7 @@
 #include <stdlib.h>
 void Output_German(int Points, int Difficulty)
 {
+	system("cls");
 	int Points2;
 	Points2=Points/Difficulty;
 	switch(Points2)
@@ -22,7 +23,7 @@ void Output_German(int Points, int Difficulty)
 		printf("Was? Null Punkte?");
 		break;
 	}
-	printf("\nDrück einen Knopf zum fortsetzen des Spieles.");
+	printf("\nDruecke einen Knopf zum fortsetzen des Spieles.");
 	getch();
 	system("cls");
 }

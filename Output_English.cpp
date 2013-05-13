@@ -1,3 +1,4 @@
+//Says you how good you were.//
 #include <stdio.h>
 #include <math.h>
 #include <conio.h>
@@ -5,8 +6,9 @@
 #include <stdlib.h>
 void Output_English(int Points, int Difficulty)
 {
+	system("cls");//Clears the screen for these menu.//
 	int Points2;
-	Points2=Points/Difficulty;
+	Points2=Points/Difficulty;//Makes the one output compatible to the different difficultys.//
 	switch(Points2)
 	{
 	case 3:
@@ -23,6 +25,6 @@ void Output_English(int Points, int Difficulty)
 		break;
 	}
 	printf("\nPress a button to continue.");
-	getch();
-	system("cls");
+	getch();//Have you seen enough?//
+	system("cls");//A blank page for the next menu//
 }
